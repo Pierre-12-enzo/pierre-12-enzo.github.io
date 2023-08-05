@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="styles/account.css">
+   <title>football.com</title>
+   <style>
+    .inputbox{
+      float: right;
+      position: relative;
+      margin: 20px;
+      border: rgb(47, 20, 100) 3px solid;
+      height: 250px;
+      width: 400px;
+      padding: 5px;
+    }
+    h3{
+      color: #f4f4f4;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    input{
+      margin-bottom: 10px;
+      width: 250px;
+      height: 25px;
+      border-radius: 5px;
+      padding-left: 10px;
+    }
+    span{
+      color: #f4f4f4;
+      text-transform: lowercase;
+    }
+    #sub{
+      border: none;
+      background: none;
+      padding: 0;
+    }
+    .submit{
+            width: 100%;
+            height: 25px;
+            background-color:  rgb(47, 20, 100) ;
+    }
+    #button{
+      color: #f4f4f4;
+      border: none;
+      position: relative;
+      left: 200px;
+      top: -35px;
+    }
+   </style> 
+</head>
+<body>
+  <center><div class="box">
+    <a class="sign" href="signin.html">sign in</a>
+    <a class="sign" href="signup.html">sign up</a>
+  </div></center>
+  <h2 class="p1">Daily Score</h2>
+  <p id="play">play now!!!</p>
+  <div class="inputbox">
+    <h3>log in</h3>
+    <input type="text" placeholder="enter user name..." required> <span>Enter User Name</span><br>
+        <input type="email" placeholder="enter email address..."> <span>Enter Email</span><br>
+     <input type="password" placeholder="enter password..." required> <span>Enter Password</span><br>
+     <a id="sub" href="serv.html"><input type="submit" class="submit" value="LOG IN"></a>
+     <p style="color: #f4f4f4;">forgot password?</p>
+     <a id="button" href="signup.html">create an account</a>
+    </div>
+</body>
+</html>
