@@ -1,0 +1,219 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+   
+}
+header{
+    background-color: #2e273f;
+    color: #ffffff;
+    padding: 10px;
+}
+header .container .nav{
+    float: right;
+    opacity: 0.9;
+}
+.navlink{
+    padding: 20px 20px 50px 20px;
+    position: relative;
+    top: -20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    width: 20px;
+}
+.current{
+    padding: 20px 20px 50px 20px;
+    position: relative;
+    top: -20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fa1e4e;
+    width: 20px;
+}
+a:hover{
+       color: #fa1e4e;
+       opacity: 0.8;
+}
+.branding{
+    color: #f4f4f4;
+}
+.branding img{
+    height: 70px;
+    position: relative;
+    left: 0px;
+}
+#showcase{
+    background: url('../styles/3749.jpg') no-repeat 0 -100px;
+    background-position: center left;
+    background-size: cover;
+    min-height: 550px;
+    position: relative;
+    background-color: #09080d;
+    border-top: #fa1e4e 2px solid;
+    
+}
+#showcase img{
+    width: 100%;
+    position: relative;
+    height: 500px;
+    opacity: 0.8;
+}
+#showcase h2{
+    margin-top: 0;
+    top: 140px;
+    position: absolute;
+    left: 100px;
+    font-size: 30px;
+    color: #f4f4f4;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin: auto;
+    width: 80%;
+}
+#showcase p{
+    margin-top: 0;
+    top: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    position: absolute;
+    left: 100px;
+    font-size:20px;
+    color: #f4f4f4;
+    margin: auto;
+    width: 80%;
+}
+#showcase a button{
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    background-color: #f4f4f4;
+    color: #09080d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: 450px;
+    left: 100px;
+    width: 100px;
+    height: 60px;
+    opacity: 0.8;
+}
+#showcase a button:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+#register{
+    background-color: #2e273f;
+    height: 100px;
+}
+#register h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+#register .mainright{
+    float: right;
+    margin-top: 15px;
+    padding: 0;
+}
+#register button{
+    width: 100px;
+    height: 35px;
+    background-color: #fa1e4e;
+    opacity: 0.8;
+    border: none;
+    position: relative;
+    top: 15px;
+    color: #f4f4f4;
+}
+#register button:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+#read{
+    background-color: #2e273f;
+}
+#read .container{
+    margin: 20px;
+    background-color: #2e273f;
+    color: #f4f4f4;
+    opacity: 0.9;
+    border-bottom: #fa1e4e 1px solid;
+}
+#read .container:hover{
+    opacity: 1;
+}
+.mainleft{
+    float: left;
+    display: inline;
+    width: 60%;
+}
+.mainright1{
+    float:right;
+    width: 40%;
+    display: inline;
+
+}
+#news{
+    min-height: 600px;
+}
+#news .container{
+    float: left;
+    width: 33.3%;
+    padding: 5px;
+    box-sizing: border-box;
+    height: 300px;
+}#news .container:hover{
+    opacity: 0.9;
+    background-color: rgb(200, 199, 199);
+}
+#news p{
+    text-transform: uppercase;
+}
+#news span{
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.top{
+    float: left;
+    width: 100%;
+    height: 180px;
+    margin-top: 10px;
+}
+
+footer{
+    background-color: #09080d;
+    padding: 10px;
+    height: 70px;
+}
+footer p{
+    position: relative;
+    top: 20px;
+    left: 30px;
+    color: #fa1e4e;
+}
+.flink{
+    position: relative;
+    top: -20px;
+    left: 800px;
+    letter-spacing: 6px;
+    font-size: 15px;
+    border: 1px solid white;
+    color: white;
+    width: 25px;
+    margin-right: 10px;
+    padding: 10px 5px 0px 15px;
+    height: 30px;
+    background-color: #2e273f;
+}
+

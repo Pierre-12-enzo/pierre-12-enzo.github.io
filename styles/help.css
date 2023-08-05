@@ -1,0 +1,95 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+   
+}
+header{
+    background-color: #2e273f;
+    color: #ffffff;
+    padding: 10px;
+}
+header .container .nav{
+    float: right;
+    opacity: 0.9;
+}
+.navlink{
+    padding: 20px 20px 50px 20px;
+    position: relative;
+    top: -20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    width: 20px;
+}
+.current{
+    padding: 20px 20px 50px 20px;
+    position: relative;
+    top: -20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fa1e4e;
+    width: 20px;
+}
+a:hover{
+       color: #fa1e4e;
+       opacity: 0.8;
+}
+.branding{
+    color: #f4f4f4;
+}
+.branding img{
+    height: 70px;
+    position: relative;
+    left: 0px;
+}
+#showcase {
+    height: 300px;
+    border-bottom: #2e273f 3px solid;
+}
+#showcase .container1{
+       overflow: hidden;
+       position: relative;
+       left: 0px;
+       width: 47%;
+       height: 300px;
+       float: left;
+}
+#help{
+    background-color: #2e273f;
+}
+footer{
+    background-color: #09080d;
+    padding: 10px;
+    height: 70px;
+}
+footer p{
+    position: relative;
+    top: 20px;
+    left: 30px;
+    color: #fa1e4e;
+}
+.flink{
+    position: relative;
+    top: -20px;
+    left: 800px;
+    letter-spacing: 6px;
+    font-size: 15px;
+    border: 1px solid white;
+    color: white;
+    width: 25px;
+    margin-right: 10px;
+    padding: 10px 5px 0px 15px;
+    height: 30px;
+    background-color: #2e273f;
+}
+
+

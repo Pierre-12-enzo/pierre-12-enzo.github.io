@@ -1,0 +1,49 @@
+body{
+    background: url('../styles/ball1.jpg') no-repeat ;
+    background-position: right center center ;
+    background-size: cover;
+}
+.box{
+    top: 100px;
+    padding: 50px;
+    
+}
+.sign{
+    text-decoration: none;
+    border: rgb(47, 20, 100) 3px solid;
+    background-color: #fa1e4e;
+    color: #f4f4f4;
+    border-radius: 10px;
+    margin: auto;
+    padding: 15px;
+    opacity: 0.8;
+    text-transform: uppercase;
+}
+a:hover{
+    opacity: 1;
+}
+.p1{
+    margin-top: 0;
+    top: 140px;
+    position: absolute;
+    left: 100px;
+    font-size: 30px;
+    color: #f4f4f4;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin: auto;
+    width: 80%;
+}
+#play{
+    margin-top: 0;
+    top: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    position: absolute;
+    left: 100px;
+    font-size:20px;
+    color: #f4f4f4;
+    margin: auto;
+    width: 80%;
+}
